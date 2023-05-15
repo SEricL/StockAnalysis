@@ -59,6 +59,8 @@ percentage = difference/single*100
 sia = SentimentIntensityAnalyzer()
 vaderCoeff = 1  # General weight for vader sentiment analysis, use/modify if sentiment analysis weight isn't important
 
+
+# More research required to figure out a better weighing scheme. Current one is prone to errors, and not very good
 # [News headline, article importance]
 headlines = [["Apple reports a drop in income", 0.9]]
 outputs = []
